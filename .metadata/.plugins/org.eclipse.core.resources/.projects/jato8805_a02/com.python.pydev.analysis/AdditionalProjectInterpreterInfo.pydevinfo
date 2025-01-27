@@ -1,0 +1,32 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_a02\com.python.pydev.analysis\v2_indexcache
+t01|1737255898681825000|C:\Users\Joseph\CP164\jato8805_a02\src\t01.py
+t03|1737255907036208200|C:\Users\Joseph\CP164\jato8805_a02\src\t03.py
+t02|1737255902907343700|C:\Users\Joseph\CP164\jato8805_a02\src\t02.py
+t05|1737255914659108300|C:\Users\Joseph\CP164\jato8805_a02\src\t05.py
+t04|1737255910007135600|C:\Users\Joseph\CP164\jato8805_a02\src\t04.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+7=C:\Users\Joseph\CP164\jato8805_a02\src\t01.py
+1=C:\Users\Joseph\CP164\jato8805_a02\src\t02.py
+8=t01
+6=t03
+2=t02
+9=C:\Users\Joseph\CP164\jato8805_a02\src\t05.py
+10=t05
+4=t04
+3=C:\Users\Joseph\CP164\jato8805_a02\src\t04.py
+5=C:\Users\Joseph\CP164\jato8805_a02\src\t03.py
+-- END DICTIONARY
+-- START TREE 1
+4
+min|1|min_rating!1^24#1*19@
+mov|5|movies!3^21#1*35@movies!5^21#1*51@movies!1^21#1*19@movies!7^21#1*67@movies!9^21#1*83@
+res|5|result!9^24#1*83@result!5^25#1*51@result!3^25#1*35@result!1^25#1*19@result!7^25#1*67@
+tes|3|test_genres!3^24#1*35@test_year!7^24#1*67@test_genre!5^24#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

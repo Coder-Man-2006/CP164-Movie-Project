@@ -1,0 +1,36 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_l01\com.python.pydev.analysis\v2_indexcache
+t01|1736603526454840900|C:\Users\Joseph\CP164\jato8805_l01\src\t01.py
+t03|1736605874769042100|C:\Users\Joseph\CP164\jato8805_l01\src\t03.py
+t02|1736605877277990400|C:\Users\Joseph\CP164\jato8805_l01\src\t02.py
+t05|1736605235602414800|C:\Users\Joseph\CP164\jato8805_l01\src\t05.py
+t04|1736605319595658000|C:\Users\Joseph\CP164\jato8805_l01\src\t04.py
+t07|1736605167372929500|C:\Users\Joseph\CP164\jato8805_l01\src\t07.py
+t06|1736605191452678200|C:\Users\Joseph\CP164\jato8805_l01\src\t06.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+8=t01
+9=C:\Users\Joseph\CP164\jato8805_l01\src\t07.py
+1=C:\Users\Joseph\CP164\jato8805_l01\src\t04.py
+7=C:\Users\Joseph\CP164\jato8805_l01\src\t01.py
+5=C:\Users\Joseph\CP164\jato8805_l01\src\t02.py
+6=t02
+11=C:\Users\Joseph\CP164\jato8805_l01\src\t05.py
+12=t05
+2=t04
+3=C:\Users\Joseph\CP164\jato8805_l01\src\t06.py
+10=t07
+4=t06
+-- END DICTIONARY
+-- START TREE 1
+4
+gen|1|genres!1^15#1*19@
+lin|1|line!3^15#1*35@
+m1|2|m1!5^16#1*51@m1!7^16#1*67@
+mov|3|movies!9^16#5*83@movie!11^15#1*99@movie!3^16#1*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

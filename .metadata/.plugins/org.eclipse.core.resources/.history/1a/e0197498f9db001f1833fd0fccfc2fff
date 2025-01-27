@@ -1,0 +1,174 @@
+"""
+-------------------------------------------------------
+Stack Functions.
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+Section: CP164 B
+__updated__ = "2025-01-26"
+-------------------------------------------------------
+"""
+
+from Stack_array import Stack
+
+# Constants
+OPERATORS = "+-*/"
+
+def stack_split_alt(source):
+    """
+    Splits the source stack into separate target stacks.
+    When finished source stack is empty. Values are
+    pushed alternately onto the returned target stacks.
+    -------------------------------------------------------
+    Parameters:
+        source - the stack to split into two parts (Stack)
+    Returns:
+        target1 - contains alternating values from source (Stack)
+        target2 - contains other alternating values from source (Stack)
+    -------------------------------------------------------
+    """
+    target1 = Stack()
+    target2 = Stack()
+    
+    # Tracking which target to push to
+    which = 1
+    
+    while not source.is_empty():
+        if which == 1:
+            target1.push(source.pop())
+            which = 2
+        else:
+            target2.push(source.pop())
+            which = 1
+    
+    return target1, target2
+
+def stack_reverse(source):
+    """
+    Reverses the contents of a stack.
+    -------------------------------------------------------
+    Parameters:
+        source - a Stack (Stack)
+    Returns:
+        None
+    -------------------------------------------------------
+    """
+    temp_stack = Stack()
+    
+    while not source.is_empty():
+        temp_stack.push(source.pop())
+    
+    while not temp_stack.is_empty():
+        source.push(temp_stack.pop())
+
+def is_palindrome_stack(string):
+    """
+    Determines if string is a palindrome. Ignores case, digits, 
+    spaces, and punctuation in string.
+    -------------------------------------------------------
+    Parameters:
+        string - a string (str)
+    Returns:
+        palindrome - True if string is a palindrome, False otherwise (bool)
+    -------------------------------------------------------
+    """
+    # Remove non-alphabetic characters and convert to lowercase
+    cleaned = ''.join(char.lower() for char in string if char.isalpha())
+    
+    # Create a stack and a temporary string to hold characters
+    s = Stack()
+    
+    # Push all characters onto the stack
+    for char in cleaned:
+        s.push(char)
+    
+    # Compare characters from original string with stack pop
+    for char in cleaned:
+        if char != s.pop():
+            return False
+    
+    return True
+
+def postfix(string):
+    """
+    Evaluates a postfix expression.
+    -------------------------------------------------------
+    Parameters:
+        string - the postfix string to evaluate (str)
+    Returns:
+        answer - the result of evaluating string (float)
+    -------------------------------------------------------
+    """
+    # Create a stack to store operands
+    values = Stack()
+    
+    # Split the input string into tokens
+    tokens = string.split()
+    
+    for token in tokens:
+        if token not in OPERATORS:
+            # If it's a number, push to stack
+            values.push(float(token))
+        else:
+            # If it's an operator, pop two operands
+            right = values.pop()
+            left = values.pop()
+            
+            # Perform operation based on operator
+            if token == '+':
+                result = left + right
+            elif token == '-':
+                result = left - right
+            elif token == '*':
+                result = left * right
+            elif token == '/':
+                result = left / right
+            
+            # Push result back to stack
+            values.push(result)
+    
+    # Final value is the answer
+    return values.pop()
+
+def reroute(opstring, values_in):
+    """
+    Reroutes values in a list according to a operating string 
+    and returns a new list of values.
+    -------------------------------------------------------
+    Parameters:
+        opstring - String containing only 'S' and 'X's (str)
+        values_in - A valid list (list of ?)
+    Returns:
+        values_out - if opstring is valid then values_out contains a
+            reordered version of values_in, otherwise returns
+            None (list of ?)
+    -------------------------------------------------------
+    """
+    # Check if operation is valid
+    if len(opstring) != len(values_in):
+        return None
+    
+    # Create stack and output list
+    stack = Stack()
+    values_out = []
+    input_index = 0
+    
+    for op in opstring:
+        if op == 'S':
+            # Push from input to stack
+            if input_index >= len(values_in):
+                return None
+            stack.push(values_in[input_index])
+            input_index += 1
+        elif op == 'X':
+            # Pop from stack to output
+            if stack.is_empty():
+                return None
+            values_out.append(stack.pop())
+    
+    # Check if everything has been processed
+    if input_index != len(values_in) or not stack.is_empty():
+        return None
+    
+    return values_out

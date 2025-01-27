@@ -1,0 +1,21 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_a03\com.python.pydev.analysis\v2_indexcache
+functions|1737905646252441500|C:\Users\Joseph\CP164\jato8805_a03\src\functions.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=functions
+1=C:\Users\Joseph\CP164\jato8805_a03\src\functions.py
+-- END DICTIONARY
+-- START TREE 1
+5
+is_|1|is_palindrome_stack!1^73#5*18@
+ope|1|OPERATORS!1^15#1*19@
+pos|1|postfix!1^105#5*18@
+rer|1|reroute!1^140#5*18@
+sta|2|stack_split_alt!1^17#5*18@stack_reverse!1^45#5*18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

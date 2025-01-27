@@ -1,0 +1,54 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_a01\com.python.pydev.analysis\v2_indexcache
+t10|1736641328505398100|C:\Users\Joseph\CP164\jato8805_a01\src\t10.py
+functions|1736641388961169300|C:\Users\Joseph\CP164\jato8805_a01\src\functions.py
+t01|1736641092727214200|C:\Users\Joseph\CP164\jato8805_a01\src\t01.py
+t03|1736641110098265200|C:\Users\Joseph\CP164\jato8805_a01\src\t03.py
+t02|1736641089832276500|C:\Users\Joseph\CP164\jato8805_a01\src\t02.py
+t05|1736641333337495800|C:\Users\Joseph\CP164\jato8805_a01\src\t05.py
+t04|1736641346215346200|C:\Users\Joseph\CP164\jato8805_a01\src\t04.py
+t07|1736641300722497200|C:\Users\Joseph\CP164\jato8805_a01\src\t07.py
+t06|1736641331593760000|C:\Users\Joseph\CP164\jato8805_a01\src\t06.py
+t09|1736641316781516800|C:\Users\Joseph\CP164\jato8805_a01\src\t09.py
+t08|1736641308628356200|C:\Users\Joseph\CP164\jato8805_a01\src\t08.py
+-- END DISKCACHE
+-- START DICTIONARY
+22
+19=C:\Users\Joseph\CP164\jato8805_a01\src\t03.py
+13=C:\Users\Joseph\CP164\jato8805_a01\src\t02.py
+15=C:\Users\Joseph\CP164\jato8805_a01\src\t01.py
+2=functions
+3=C:\Users\Joseph\CP164\jato8805_a01\src\t04.py
+11=C:\Users\Joseph\CP164\jato8805_a01\src\t05.py
+9=C:\Users\Joseph\CP164\jato8805_a01\src\t10.py
+1=C:\Users\Joseph\CP164\jato8805_a01\src\functions.py
+10=t10
+16=t01
+20=t03
+7=C:\Users\Joseph\CP164\jato8805_a01\src\t08.py
+14=t02
+21=C:\Users\Joseph\CP164\jato8805_a01\src\t09.py
+12=t05
+17=C:\Users\Joseph\CP164\jato8805_a01\src\t07.py
+4=t04
+5=C:\Users\Joseph\CP164\jato8805_a01\src\t06.py
+18=t07
+6=t06
+22=t09
+8=t08
+-- END DICTIONARY
+-- START TREE 1
+8
+cle|1|clean_list!1^17#5*18@
+fil|1|file_analyze!1^56#5*18@
+fin|1|find_subs!1^87#5*18@
+is_|1|is_palindrome!1^111#5*18@
+lis|1|list_subtraction!1^40#5*18@
+mat|4|matrix_rotate_right!1^188#5*18@matrixes_multiply!1^173#5*18@matrix_transpose!1^145#5*18@matrix_flatten!1^159#5*18@
+med|1|median_scores!1^127#5*18@
+tes|10|test_find_subs!3^15#5*34@test_median_scores!5^15#5*50@test_matrix_flatten!7^15#5*66@test_matrix_rotate_right!9^15#5*82@test_is_palindrome!11^15#5*98@test_list_subtraction!13^15#5*114@test_clean_list!15^14#5*130@test_matrix_transpose!17^15#5*146@test_file_analyze!19^15#5*162@test_matrixes_multiply!21^15#5*178@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

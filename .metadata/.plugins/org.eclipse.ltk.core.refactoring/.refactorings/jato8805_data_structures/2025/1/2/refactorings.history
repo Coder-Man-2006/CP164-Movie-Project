@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jato8805_data_structures/src/Movie_utilities.txt&apos; to &apos;Movie_utilities.py&apos;" description="Rename resource &apos;Movie_utilities.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Movie_utilities.txt" name="Movie_utilities.py" stamp="1736570235806" updateReferences="true"/>
+</session>
